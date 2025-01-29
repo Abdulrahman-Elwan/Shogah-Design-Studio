@@ -88,7 +88,7 @@
         <section class="banner-area relative" id="home">
             <div class="overlay overlay-bg"></div>
             <div class="video">
-                <video autoplay loop muted>
+                <video autoplay loop muted playsinline>
                     <source src="img/3770017-hd_1920_1080_25fps.mp4" type="video/mp4">
                 </video>
             </div>
@@ -292,6 +292,13 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let video = document.querySelector("video");
+            video.muted = true;
+            video.play();
+        });
+    </script>
 </body>
 
 </html>
