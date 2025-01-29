@@ -1,0 +1,799 @@
+.contactdet {
+    width: 100%;
+    background-color: #6363630b !important;
+}
+
+.contactdet .text-center-div {
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    color: #636363;
+    font-size: 45px !important;
+    font-weight: bold !important;
+}
+
+.contactdet .contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contactdet .contact-div i {
+    color: #c6b069;
+    margin: 0 5px;
+
+}
+
+.contactdet .contact-div .h5 {
+    padding-bottom: 15px;
+    color: #c6b069;
+    font-size: 22px;
+    margin-bottom: 0 !important;
+}
+
+.contactdet .contact-div span {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #636363d6;
+    text-align: center;
+}
+
+.contactdet .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+@media screen and (max-width: 500px) {
+    .contactdet h1 {
+        margin-bottom: 40px;
+        letter-spacing: 1.5px;
+        color: #636363;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .about-content h1 {
+        width: 200px;
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .justify-content-center .list button {
+        font-size: 22px;
+    }
+
+    .contactdet .contact-div span {
+        margin-top: 0;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        color: #636363;
+        text-align: center;
+    }
+
+    #contactForms .nav-link {
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(145, 135, 125);
+        font-size: 25px;
+        margin: 0 10px;
+        padding: 0 10px;
+        font-weight: 700;
+        transition: all 0.7s ease;
+    }
+
+    .contactdet .text-center-div {
+        margin-bottom: -5px;
+        letter-spacing: 1.5px;
+        color: #636363;
+        font-size: 27px !important;
+        font-weight: bold !important;
+        padding: 0 20px;
+    }
+
+    .contactdet .contact-div i {
+        font-size: 17px;
+    }
+
+    .contactdet .contact-div .h5 {
+        padding-bottom: 15px;
+        color: #c6b069;
+        font-size: 18px;
+        margin-bottom: 0 !important;
+    }
+
+    .contactdet .contact-div span {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        color: #636363d6;
+        text-align: center;
+    }
+
+    .contactdet .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 0 !important;
+    }
+    .contactdet .contact-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin:0;
+    }
+    .contactdet .contact-div .h5 {
+        padding-bottom: 15px;
+        color: #c6b069;
+        font-size: 17px !important;
+        margin-bottom: 0 !important;
+        margin: 0 5px;
+        display: none;
+    }
+    .consultForms h3 {
+        margin-top: 29px !important;
+    }
+    .justify-content-center {
+        justify-content: center !important;
+        flex-direction: column;
+        padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about-content h1 {
+        width: 200px;
+        font-size: 30px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .text-center h1 {
+        transition-duration: 1.5s;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+}
+
+#contactForms .btn-primary {
+    background-color: rgb(145, 135, 125);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact page style */
+#contactForms{
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden !important;
+}
+.conactcontant form{
+    overflow: hidden !important;
+    background-color: #bdb5b50b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.conactcontant form .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+}
+.conactcontant form .text_right{
+    margin: 20px 0;
+}
+#contactForms .btn-primary {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(145, 135, 125, 0.838);
+    color: #fff;
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize !important;
+    transition: all 0.5s ease;
+}
+#contactForms .btn-primary:hover {
+    background-color: #fff !important;
+    color: rgb(145, 135, 125);
+    border: 2px solid rgb(145, 135, 125);
+}
+#contactForms h1 u {
+    padding-bottom: 0px;
+    color: rgb(145, 135, 125);
+    border-bottom: 2px solid;
+}
+
+.contactdet .contact-div .h5 {
+    padding-bottom: 15px;
+    color: #c6b069;
+    font-size: 22px;
+    margin-bottom: 0 !important;
+    margin: 0 5px;
+}
+
+#contactForms .conactcontant .contactlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#contactForms .content {
+    display: none;
+}
+
+#contactForms .active {
+    display: block;
+}
+
+#contactForms .nav-linkss {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(145, 135, 125);
+    font-size: 30px;
+    margin: 0 10px;
+    padding: 0 10px;
+    font-weight: 700;
+    transition: all 0.7s ease;
+}
+
+#contactForms .nav-linkss:hover {
+    color: rgb(145, 135, 125);
+}
+
+#contactForms .nav-linkss.active-linkss {
+    font-weight: bold;
+    color: #636363;
+    background-color: #6363631b;
+    border-radius: 15px;
+}
+
+#contactForms .contact-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+#contactForms .contact-form h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contactForms .form-control {
+    margin-bottom: 13px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+#contactForms textarea {
+    height: 75px !important;
+}
+
+#contactForms .form-control:focus {
+    border-color: rgb(145, 135, 125);
+    box-shadow: none;
+}
+
+#contactForms .btn-primary {
+    background-color: rgb(145, 135, 125);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 25px auto !important;
+}
+
+#contactForms .btn-primary:hover {
+    background-color: rgb(145, 135, 125);
+}
+
+#contactForms .error-message {
+    color: rgb(136, 0, 0);
+    font-size: 12px;
+    display: none;
+}
+
+#contactForms .contact-form {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none !important;
+    max-width: 800px;
+    width: 100%;
+}
+
+#contactForms input[type="file"] {
+    height: 35px !important;
+}
+
+
+.left {
+    order: 1;
+    /* Default order */
+}
+
+.right {
+    order: 2;
+    /* Default order */
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        order: 2;
+        /* Reverse order on small screens */
+    }
+
+    .right {
+        order: 1;
+        /* Reverse order on small screens */
+    }
+    .conactcontant form .form-row {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px;
+    }
+    .conactcontant form .form-row .col-md-6,
+    .conactcontant form .form-row textarea {
+        width: 100%;
+    }
+}
+@media (max-width: 550px){
+    #contactForms .nav-linkss {
+        font-size: 20px;
+    }
+}
+@media (max-width: 300px){
+    #contactForms .nav-linkss {
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(145, 135, 125);
+        font-size: 17px;
+        margin: 0 10px;
+        padding: 0;
+        font-weight: 700;
+        transition: all 0.7s ease;
+    }
+    #contactForms ul {
+        padding-left: 0;
+    }
+    #contactForms .contact-form {
+        padding: 0;
+    }
+    #contactForms form label {
+        display: inline-block;
+        font-size: 13px;
+    }
+    #contactForms .btn-primary {
+        width: 136px !important;
+    }
+    #contactForms .iframe{
+        padding: 0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* consult page
+========================================= */
+.consultForms{
+    padding: 50px 0;
+}
+.consultForms h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Saira", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #494746;
+    padding: 0 26px;
+    text-align: center;
+    font-size: 40px !important;
+}
+#consult{
+    height: 50vh;
+    overflow: hidden;
+    background-image: url(../img/bg-consult.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+#consult .container{
+    background-color: rgba(4, 9, 30, 0.558);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactlinkcon{
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+}
+.contactlinkcon form{
+    padding: 0 20px;
+}
+#contactForms .imagee{
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactForms .imagee img{
+    margin: 0 auto;
+    height: 600px;
+    width: 70%; 
+    border-radius: 15px;
+}
+#contactForms .rotat ul{
+    padding:15px 20px 20px ;
+    height: 100%;
+}
+#contactForms .rotat ul li{
+    list-style: disc;
+}
+#contactForms .rotat ul span{
+    cursor: pointer;
+    border: 2px solid rgb(145, 135, 125);
+    margin: -1px !important;
+    border-radius: 13px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(145, 135, 125);
+}
+.justify-content-center .list button {
+    font-size: 25px;
+    font-weight: 600;
+    color: #494746;
+}
+#contactForms .rotat ul li {
+    list-style: disc;
+    color: #636363;
+    line-height: 23px;
+}
+
+#contactForms .rotat ul span {
+    border: 2px solid rgb(145, 135, 125);
+    border-radius: 13px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(145, 135, 125);
+    transition: all 0.5s ease;
+}
+#contactForms .rotat ul span:hover {
+    color: rgb(145, 135, 125);
+    background-color: #fff;
+}
+.consultForms .forms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultForms .formssss .consultation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/conconsult.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.consultForms .formssss .consultation .consult-form{
+    background-color: rgba(4, 9, 30, 0.558);
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+.consultation .col-md-6{
+    width: 100% !important;
+}
+.consultation .form-control {
+    margin-bottom: 0px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: rgb(159, 23, 23) ;
+    width: 100% !important;
+}
+.consultation .contactlinkcon {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+}
+#contactForms #Consult {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contactForms #Consult form{
+    width: 100%;
+}
+#contactForms #consultations .contact-form {
+    padding: 25px 15px 10px;
+    border-radius: 10px;
+    box-shadow: none !important;
+    max-width: 45% !important;
+    width: 45% !important;
+    display: flex;
+    min-width: 45% !important;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#contactForms .consultation .nav-linkss {
+    font-size: 36px;
+    font-weight: 600;
+}
+@media (min-width: 1100px) { 
+    #contactForms #consultations .contact-form {
+        padding: 25px 15px 10px;
+        border-radius: 10px;
+        box-shadow: none !important;
+        max-width: 30% !important;
+        width: 30% !important;
+        display: flex;
+        min-width: 30% !important;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 900px){
+    #contactForms .rotat ul .lispan{
+        margin-bottom: 20px;
+    }
+    #contactForms .rotat ul li {
+        list-style: disc;
+        color: #636363;
+        line-height: 33px;
+    }
+}
+@media (max-width: 550px){
+    .consultForms h3{
+        font-weight: 700;
+        font-size: 33px !important;
+    }
+    .justify-content-center .list button {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #contactForms .rotat ul li {
+        list-style: disc;
+        font-size: 11px;
+        line-height: 23px;
+    }
+    #contactForms .rotat ul span {
+        margin: -1px !important;
+        border-radius: 13px;
+        font-size: 15px !important;
+        padding: 5px 10px;
+        color: #fff;
+        font-weight: 500;
+        background-color: rgb(145, 135, 125);
+    }
+    #contactForms .imagee img {
+        margin: 0 auto;
+        height: 477px;
+        width: 97%;
+        border-radius: 15px;
+    }
+    .consultForms .forms .consultation #contactForm3{
+        width: 300px;
+    }
+    .consultForms .forms .consultation{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 125vh;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #92421a;
+    }
+    #contactForms #consultations .contact-form {
+        padding: 25px 15px 10px;
+        border-radius: 10px;
+        box-shadow: none !important;
+        max-width: 80% !important;
+        width: 80% !important;
+        display: flex;
+        min-width: 80% !important;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 300px){
+    .consultForms .forms .consultation #contactForm3{
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* تنسيق الشروط والأحكام */
+.Conditions {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.conditions-content {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+.conditions-content h2{
+    font-weight: bold;
+    color: #494746;
+}
+.conditions-content p{
+    color: #636363;
+}
+
+.close-icon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #494746;
+    font-size: 40px;
+}
+.conditions-content button{
+    border: 2px solid rgb(145, 135, 125);
+    margin: -1px !important;
+    border-radius: 13px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(145, 135, 125);
+    font-size: 25px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+.conditions-content button:hover{
+    color: rgb(145, 135, 125);
+    background-color: #fff;
+}
